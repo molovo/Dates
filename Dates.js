@@ -286,10 +286,10 @@
         self.setYear( act, pos, k, self );
       }
 
-      // After two seconds, clear the entered number to stop chaining
+      // After five seconds, clear the entered number to stop chaining
       setTimeout( function () {
         self.enteredNumber = "";
-      }, 2000 );
+      }, 5000 );
     },
 
     /**
@@ -823,4 +823,6 @@
     }
 
   };
+
+  document.addEventListener( 'DOMContentLoaded', Dates.init );
 } )();
