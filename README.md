@@ -1,6 +1,6 @@
 # Dates
 
-A polyfill to recreate chromes keyboard input behaviour on date inputs across other browsers
+A polyfill to recreate Google Chrome's keyboard input behaviour on date inputs across other browsers
 
 #### Usage
 
